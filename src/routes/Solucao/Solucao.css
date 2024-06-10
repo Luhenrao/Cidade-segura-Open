@@ -1,0 +1,83 @@
+.tituloSolucao{
+    color: black;
+}
+
+.container3{
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+    display: grid;
+    place-items: center;
+    height: 20vh;
+    width: 60vh;
+    margin-left: 20%;
+    
+    
+}
+.Solucao{
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+    color: black;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.topics{
+display: flex;
+justify-content: space-between;
+margin-top: 3%;
+margin-left: 20%;
+margin-right: 20%;
+max-width: 100%;
+}
+.pag1{
+    justify-content: justify;
+    width: 50vh;
+   padding: 2%;
+    background-color: #4AB1B8;
+    color: black;
+    text-align: left;
+    margin-right: 1%;
+}
+.pag2{
+    justify-content: justify;
+    width: 50vh;
+    padding: 2%;
+    margin-left: 1%;
+  
+    
+    background-color: #4AB1B8;
+    color: black;
+    text-align: left;
+}
+.pag3{
+    margin-right: 1%;
+    width: 50vh;
+    padding: 2%;
+    justify-content: justify;
+   
+    background-color: #4AB1B8;
+    color: black;
+    text-align: left;
+}
+.pag4{
+    margin-left: 1%;
+    width: 50vh;
+    padding: 2%;
+    justify-content: justify;
+
+ 
+    background-color: #4AB1B8;
+    color: black;
+    text-align: left;
+}
+
+
+
+.title{
+    color: black;
+    text-align: center;
+}

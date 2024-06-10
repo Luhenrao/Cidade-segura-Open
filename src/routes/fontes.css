@@ -1,0 +1,38 @@
+
+.ods{
+    margin-top: 2%;
+}
+
+.container{
+    background-color: rgb(255, 255, 255);
+    margin-left: 20%;
+    height: auto;
+    width: 30%;
+    text-align: justify;
+    color:black;
+}
+.topico{
+    font-size: 15px;
+}
+.Group{
+    
+    height: 500px;
+    position:relative; 
+  top: -500px; 
+  left: 300px; 
+    
+}
+.container2{
+    background-color: rgb(255, 255, 255);
+    margin-left: 53%;
+    margin-top: -400px;
+    height: auto;
+    width: 30%;
+    text-align: justify;
+    color:black;
+    
+}
+.topico2{
+    font-size: 15px;
+}
+

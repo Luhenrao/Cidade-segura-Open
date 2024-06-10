@@ -1,0 +1,52 @@
+.dark{
+  position: absolute;
+  margin-top: 6%;
+  margin-left: 41%;
+}
+.App {
+  font-family: "Montserrat", sans-serif;
+  color: #4AB1B8;
+  text-align: center;
+}
+
+.destaque {
+  color: black;
+}
+
+.content {
+  margin-top: 5%;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+
+.dark-mode .App {
+  font-family: "Montserrat", sans-serif;
+  color: #4AB1B8;
+  text-align: center;
+  background-color: black;
+}
+
+.dark-mode .destaque {
+  color: #ffffff;
+}
+
+.dark-mode .content {
+  background-color: #444444;
+}
+
+.dark-mode h1,
+.dark-mode h2 {
+  color: #ffffff;
+}
+
+body .dark-mode {
+  background-color: rgb(105, 104, 104);
+}
+

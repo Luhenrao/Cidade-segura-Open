@@ -1,0 +1,33 @@
+.alysson,.gabriel,.luiz,.carlos,.giullia{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    display: block;
+  margin: 0 auto;
+ 
+}
+ h3{
+    font-size: 200%;
+    color: rgb(0, 0, 0);
+}
+.linkedin{
+    width: 15%;
+    height: 15%;
+    border-radius: 10%;
+    display: block;
+  margin: 0 auto;
+
+}
+.linkedin:hover{
+    transform: scale(1.3);
+    transition: transform 0.3s;
+}
+.divCarrossel{
+    color:black
+}
+.tituloSobrenos{
+    color: black;
+
+}
+
+

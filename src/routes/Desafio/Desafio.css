@@ -1,0 +1,23 @@
+
+
+.topico{
+    font-size: 1vw;
+}
+.ods{
+    margin-top:1%;
+    max-width: 100%;
+    height: auto;
+}
+.Explicando{
+    font-size:clamp(3rem,3vw + 1rem, 2rem);
+    color: black;
+}
+.topico{
+    font-size:clamp(1rem,3vw + 1rem, 1rem);
+}
+.Group{
+    margin-top:1%;
+    max-width: 100%;
+    height: auto;
+
+}

@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    color: currentColor;
+    font-size: 1.6em;
+    padding: 6px 20px; /* Reduzi o padding para telas menores */
+    background-color: #4AB1B8;
+    width: 100%;
+}
+
+/* Media query para telas menores */
+@media only screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column; /* Altera a direção do flex para empilhar verticalmente */
+        padding: 20px; /* Ajusta o padding para telas menores */
+    }
+}
+
+.logo{
+    line-height: 0;
+}
+
+
+.cidade{
+    
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 
+    1px 1px 0 #000, 
+    -1px -1px 0 #000, 
+    -1px 1px 0 #000, 
+    1px -1px 0 #000,
+    1px 0 0 #000,
+    -1px 0 0 #000,
+    0 1px 0 #000,
+    0 -1px 0 #000;
+
+
+}
+.segura{
+    font-size: 40px;
+    color: #ffffff;
+    text-shadow: 
+    1px 1px 0 #000, 
+    -1px -1px 0 #000, 
+    -1px 1px 0 #000, 
+    1px -1px 0 #000,
+    1px 0 0 #000,
+    -1px 0 0 #000,
+    0 1px 0 #000,
+    0 -1px 0 #000;
+
+
+}
+
+.legenda{
+    font-size: 400%;
+    color: rgb(255, 255, 255);
+    left: 10px;
+    margin-top: -19%;
+    filter: brightness(100%)
+ 
+    
+
+}
+
+.texto{
+    margin-top: -3%;
+}
+.BotaoCadastro{
+    text-decoration: none;
+    transition: transform 0.3s;
+    color: rgb(255, 255, 255);
+    border: 2px solid #4AB1B8;
+    background-color: #4AB1B8;
+    border-radius: 30px;
+    display: inline-block; 
+    padding: 10px;
+    text-shadow: 
+    1px 1px 0 gray, 
+    -1px -1px 0 gray, 
+    -1px 1px 0 gray, 
+    1px -1px 0 gray,
+    1px 0 0 gray,
+    -1px 0 0 gray,
+    0 1px 0 gray,
+    0 -1px 0 gray;
+}
+.BotaoCadastro:visited{
+    color: rgb(255, 255, 255);
+}
+.BotaoCadastro:hover{
+    transform: scale(1.3);
+}
+.Botoes{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: transform 0.3s;
+    text-align:right;
+    text-shadow: 
+    1px 1px 0 gray, 
+    -1px -1px 0 gray, 
+    -1px 1px 0 gray, 
+    1px -1px 0 gray,
+    1px 0 0 gray,
+    -1px 0 0 gray,
+    0 1px 0 gray,
+    0 -1px 0 gray;
+}
+.Botoes:visited{
+    color: rgb(255, 255, 255)
+
+}
+.Botoes:hover{
+    transform: scale(1.1);
+ 
+
+}
+.botoesLC{
+    text-decoration: none;
+    transition: transform 0.3s;
+    color:rgb(255, 255, 255);
+    margin-left: 100px;
+    text-shadow: 
+    1px 1px 0 gray, 
+    -1px -1px 0 gray, 
+    -1px 1px 0 gray, 
+    1px -1px 0 gray,
+    1px 0 0 gray,
+    -1px 0 0 gray,
+    0 1px 0 gray,
+    0 -1px 0 gray;
+}
+.botoesLC:visited{
+    color: rgb(255, 255, 255);
+}
+.botoesLC:hover{
+    transform: scale(1.3);
+}
+.container{
+    width: 450px;
+    background-color: rgba(255, 255,255,0.15);
+    backdrop-filter: bluer(10px);
+    border: 2px sold rgb(255,255 , 255, 0.2);
+    padding: 40px;
+    border-radius: 20px;
+    margin-left: -0%;
+  
+}
+
+.container h1{
+    text-align: center;
+    font-size: 30px;
+    color:#fff;
+
+
+}
+
+.container .input-field{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px auto;
+}
+
+.input-field input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid rgba(255,255,255, 0.2);
+    border-radius: 40px;
+    font-size: 16px;
+    color:#fff;
+    padding: 20px 25px;
+}
+
+.input-field input::placeholder{
+    color:#fff
+}
+
+.input-field .icon{
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.container .recall-forget {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.recall-forget label{
+    color:#fff;
+}
+
+.recall-forget input{
+    margin-right: 5px;
+}
+
+.recall-forget a .signup-link p a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.recall-forget a:hover .signup-link p a:hover{
+    text-decoration: underline;
+}
+
+.container button{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius:40px;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight:600;
+    text-shadow: none;
+}
+
+.container .signup-link{
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 10px;
+
+}
+
+.signup-link p a{
+    color:#fff;
+
+}
+
+ 

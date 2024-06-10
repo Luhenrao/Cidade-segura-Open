@@ -1,0 +1,115 @@
+
+h2{
+    color: rgb(0, 0, 0);
+}
+.frase{
+    font-size: 40px;
+    color: gray;
+}
+.slogan{
+    color: #4AB1B8;
+    
+}
+.destaque{
+    color: #000000;
+}
+.content{
+    font-family: "Montserrat", sans-serif;
+    color:#4AB1B8;
+    background-color: #d6d2d2;
+    height:70vh;
+    position: relative;
+    transform: translateY(-100px);
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;
+}
+.textoInicio{
+  transform: translateY(170px);
+  
+  
+}
+
+.destaque{
+    color:black
+
+}
+
+  h1{
+    font-size: 50px;
+  }
+  h2{
+    font-size: 50px;
+ 
+  }
+
+  
+body{
+  margin: 0;
+}
+.containerInicio{
+  background-color: #a79d9d;
+  width: 100vw;
+  height: 100vh;
+}
+.imagem1,.imagem2{
+ width: 70%;
+ height: 50%;
+ float: right;
+ border-radius: 10%;
+ filter: brightness(80%);
+ margin-bottom: 10%;
+ 
+}
+.imagem3,.imagem4{
+  
+  width: 70%;
+  height: 50%;
+  float: left;
+  border-radius: 10%;
+  filter: brightness(80%);
+  margin-top: 10%;
+
+}
+.parteDeBaixo{
+  display: flex;
+  height: 100vh;
+  width: 99vw;
+
+}
+.esquerda{
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  width: 50vw;
+ 
+
+}
+.meio{
+  height: 100px;
+  width: 5vw;
+
+}
+.direita{
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  width: 50vw;
+ 
+}
+.t1,.t2{
+  font-size:clamp(3rem,3vw + 1rem, 2rem);
+ color: black;
+  float: right;
+  text-align: right;
+  
+ 
+
+}
+.t3,.t4{
+  float:left;
+  text-align: left;
+  font-size:clamp(3rem,3vw + 1rem, 2rem);
+  color: black;
+
+}
+
+
+

@@ -1,0 +1,15 @@
+.Botoes{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: transform 0.3s;
+    text-align:right;
+}
+.Botoes:visited{
+    color: rgb(255, 255, 255)
+
+}
+.Botoes:hover{
+    transform: scale(1.1);
+ 
+
+}

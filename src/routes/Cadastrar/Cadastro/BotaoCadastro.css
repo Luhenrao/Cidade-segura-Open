@@ -1,0 +1,16 @@
+.BotaoCadastro{
+    text-decoration: none;
+    transition: transform 0.3s;
+    color: rgb(255, 255, 255);
+    border: 2px solid #4AB1B8;
+    background-color: #4AB1B8;
+    border-radius: 30px;
+    display: inline-block; 
+    padding: 10px;
+}
+.BotaoCadastro:visited{
+    color: rgb(255, 255, 255);
+}
+.BotaoCadastro:hover{
+    transform: scale(1.3);
+}
